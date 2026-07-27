@@ -1,0 +1,25 @@
+# Higlobe
+
+> Higlobe is a regulated cross-border money transfer service that lets freelancers, independent contractors, and businesses receive international payments from clients in the United States and the European Union. Members open a USD or EUR receiving account, share a payment request, and withdraw to a local bank account with near-instant, 24/7 settlement at a flat, low cost. Higlobe is a FinCEN-registered Money Service Business. Note: Higlobe does not currently publish a public developer API, OpenAPI, or SDK — this profile covers its public product, security, and commercial surface.
+
+## Product
+
+- [Higlobe home](https://higlobe.com): USD/EUR receiving accounts, instant withdrawals, Visa Signature card, balance yield, payment requests.
+- [Pricing](https://higlobe.com/pricing): Flat, low-cost transfer pricing.
+- [Sign up](https://higlobe.com/webapp/en/sign-up): Create a Higlobe receiving account.
+- [Login](https://higlobe.com/webapp/en/login): Member web app sign-in.
+
+## Security & Compliance
+
+- [Security](https://higlobe.com/security): SOC 2 Type 2 and SOC 3 posture, encryption in-transit and at-rest, OWASP-based practices, 24/7 monitoring, and a Vulnerability Disclosure Program for responsible researchers.
+
+## Legal
+
+- [Terms and Conditions](https://higlobe.com/terms-and-conditions)
+- [Privacy Policy](https://higlobe.com/privacy-policy)
+
+## Company
+
+- [Blog](https://higlobe.com/blog): Product and company updates.
+- [Careers](https://higlobe.com/careers): Open roles.
+- [Support](https://support.higlobe.com/hc/en-us): Help center and member support.

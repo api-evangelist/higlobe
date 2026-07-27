@@ -1,8 +1,31 @@
 aid: higlobe
 name: Higlobe
-description: Higlobe is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Higlobe is a regulated cross-border money transfer service that lets freelancers,
+  independent contractors, and businesses receive international payments from clients
+  in the United States and the European Union. Members open a USD or EUR receiving
+  account, share a payment request or account details with their payer, and withdraw
+  funds to a local bank account with near-instant, 24/7 settlement at a flat, low
+  cost. The platform also offers a Visa Signature card, a yield on account balances,
+  and payer-facing payment requests. Higlobe is registered as a Money Service Business
+  (MSB) with FinCEN under the U.S. Department of the Treasury and publishes a SOC 2
+  Type 2 / SOC 3 security posture. Higlobe is a consumer/business fintech product and
+  does not currently publish a public developer API, OpenAPI, SDK, or developer portal;
+  this profile captures its public identity, security, and commercial surface. Backed
+  by Battery Ventures; added to the API Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/higlobe/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/63e626d88ff2d64582912f42/6477b61f90cb9f9fa91d9586_higlobe-global-transfers-share-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,54 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Payments
+- Cross-Border Payments
+- Money Transfer
+- Remittance
+- Fintech
+- Financial Services
+- Freelancers
+- Receiving Accounts
 apis: []
+common:
+- type: TrustCenter
+  url: security/higlobe-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/higlobe-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/higlobe-domain-security.yml
+- type: LLMsTxt
+  url: llms/higlobe-llms.txt
+- type: Website
+  url: https://higlobe.com
+- type: Pricing
+  url: https://higlobe.com/pricing
+- type: Security
+  url: https://higlobe.com/security
+- type: Compliance
+  url: https://higlobe.com/security
+- type: TermsOfService
+  url: https://higlobe.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://higlobe.com/privacy-policy
+- type: Blog
+  url: https://higlobe.com/blog
+- type: Support
+  url: https://support.higlobe.com/hc/en-us
+- type: SignUp
+  url: https://higlobe.com/webapp/en/sign-up
+- type: Login
+  url: https://higlobe.com/webapp/en/login
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
